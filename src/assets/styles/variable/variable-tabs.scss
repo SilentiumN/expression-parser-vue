@@ -1,0 +1,47 @@
+@import "src/assets/styles/constants";
+
+.tabs-wrapper {
+  width: 100%;
+  overflow: hidden;
+
+  &__navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    gap: 16px;
+    overflow-y: scroll;
+    border-bottom: 1px solid $gray-light;
+  }
+
+  &__select-tab-btn {
+    background: transparent;
+    border: none;
+    width: max-content;
+    text-align: center;
+    white-space: nowrap;
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    font-family: inherit;
+
+    &_active {
+      border-bottom-color: $purple-light;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    line-height: 1.17;
+    font-weight: 700;
+    margin: 24px 0;
+  }
+
+  &__items {
+    width: 100%
+  }
+
+  &__actions {
+    padding: 24px 0;
+  }
+}

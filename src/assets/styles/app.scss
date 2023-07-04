@@ -1,0 +1,23 @@
+.app {
+  height: 100%;
+  width: 100%;
+
+  &__content {
+    display: grid;
+    grid-template-rows: 1fr max-content;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__tabs-container {
+    padding: 64px 24px 64px 48px;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 24px 48px;
+    gap: 16px;
+  }
+}

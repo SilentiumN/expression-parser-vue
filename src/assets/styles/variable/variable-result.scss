@@ -1,0 +1,9 @@
+.variable-result {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+  }
+}
